@@ -7,12 +7,14 @@ module top(
 
     logic [31:0] PC, Instr, ReadData;
 
+    logic [3:0] byteEnable;
+
 
     // instantiate processor and memories
-    arm  arm (clk, reset, PC, Instr, MemWrite, DataAdr, WriteData, ReadData);
+    arm  arm (clk, reset, PC, Instr, MemWrite, DataAdr, WriteData, ReadData, byteEnable);
     
     imem imem(PC, Instr);
     
-    dmem dmem(clk, MemWrite, DataAdr, WriteData, ReadData);
-    
+    ram ram(clk, MemWrite, byteEnable, DataAdr, WriteData, ReadData);
+
 endmodule

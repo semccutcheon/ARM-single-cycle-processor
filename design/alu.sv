@@ -24,7 +24,7 @@ module alu(
 
     always_comb
     begin
-        ALUResult = 'd0;
+        ALUResult = 32'd0;
 
         case(ALUControl)
         4'b0000 :   // Bitwise AND
@@ -147,7 +147,7 @@ module alu(
 
         4'b1100 : // Bitwise OR
         begin
-            ALUResult = SrcA + SrcB;
+            ALUResult = SrcA | SrcB;
             carry_flag = shifter_carry_in;
             // carry_flag = shifter_carry_in
         end
@@ -171,9 +171,9 @@ module alu(
         end                
         default :
         begin
-            ALUResult = 'd0;
-            carry_flag = 'd0;
-            overflow_flag = 'd0;
+            ALUResult = 32'd0;
+            carry_flag = 1'd0;
+            overflow_flag = 1'd0;
         end
         endcase
     end

@@ -13,3 +13,6 @@ module dmem(
     always_ff @(posedge clk)
         if (we) RAM[a[31:2]] <= wd;
 endmodule
+
+
+

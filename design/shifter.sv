@@ -1,7 +1,7 @@
 module shifter (
     input logic [31:0] in,
     input logic [2:0] shift_op,
-    input logic [5:0] shift_amt, // need 6 bits for reg values > 32 (in documentation its the bottom byte, 7:0 but its not necessary because values >32 are equivalent to the 5:0 value
+    input logic [5:0] shift_amt, // need 6 bits for reg values > 32 (in documentation its the bottom byte, 7:0 but its not necessary because values >64 are equivalent to the 5:0 value
     input logic carry_flag_in,
     output logic carry_flag_out,
     output logic [31:0] out
