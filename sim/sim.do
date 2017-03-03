@@ -3,7 +3,7 @@
 
 set WLFFilename waveform.wlf
 log -r /*
-log -r testbench/dut/arm/dp/rf/rf
+log -r tb_top/dut/arm/dp/rf/rf
 
 
 #log -r /* 

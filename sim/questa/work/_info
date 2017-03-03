@@ -1,0 +1,500 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/sim
+vadder
+Z1 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+Z2 !s110 1488518999
+!i10b 1
+!s100 CeQgj>T94JNOAbCSKZSSG0
+Id;H;[oSOU7I8z2ded14fd0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 adder_sv_unit
+S1
+R0
+Z4 w1488517271
+8/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/adder.sv
+F/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/adder.sv
+L0 1
+Z5 OL;L;10.4c;61
+r1
+!s85 0
+31
+Z6 !s108 1488518999.000000
+Z7 !s107 /users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/shiftlogic.sv|/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/shifter.sv|/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/shiftblock.sv|/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/top.sv|/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/arm.sv|/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/regfile.sv|/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/mux2.sv|/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/flopr.sv|/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/flopenr.sv|/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/extend.sv|/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/decoder.sv|/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/datapath.sv|/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/controller.sv|/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/condlogic.sv|/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/condcheck.sv|/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/alu.sv|/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/adder.sv|
+Z8 !s90 -quiet|-64|-sv|-f|/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/rtl.cfg|
+!i113 0
+Z9 o-quiet -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+valu
+R1
+R2
+!i10b 1
+!s100 TZgGmoZDY>264HBoOAX::0
+IhVZ86gd9MR0eBhTW_?;NR0
+R3
+!s105 alu_sv_unit
+S1
+R0
+R4
+8/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/alu.sv
+F/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/alu.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+varm
+R1
+R2
+!i10b 1
+!s100 9QU61h4membANY65LJBbS0
+IjnJAahnZi>U@PgTi^197B2
+R3
+!s105 arm_sv_unit
+S1
+R0
+R4
+8/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/arm.sv
+F/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/arm.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vbyteram
+R1
+R2
+!i10b 1
+!s100 ^aRVe5UT=KU;jk@6S=H;l1
+I=aL2YnnW0ILoXmD45^RTk0
+R3
+!s105 byteram_sv_unit
+S1
+R0
+Z10 w1488517270
+8/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/verif/byteram.sv
+F/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/verif/byteram.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+Z11 !s107 /users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/verif/tb_top.sv|/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/verif/top.sv|/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/verif/byteram.sv|/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/verif/ram.sv|/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/verif/imem.sv|
+Z12 !s90 -quiet|-64|-sv|-f|/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/verif/tb.cfg|-work|work|
+!i113 0
+Z13 o-quiet -sv -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vcondcheck
+R1
+R2
+!i10b 1
+!s100 cHHWzDI:7K6]ba[Z`m`<D2
+IFhk1WGN;j^DU23>SbC3kK0
+R3
+!s105 condcheck_sv_unit
+S1
+R0
+R4
+8/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/condcheck.sv
+F/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/condcheck.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vcondlogic
+R1
+R2
+!i10b 1
+!s100 SM]l3DEPe>g=iKGceJn@X2
+IZ582RdQ^;Kkg?3OGZ93f=2
+R3
+!s105 condlogic_sv_unit
+S1
+R0
+R4
+8/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/condlogic.sv
+F/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/condlogic.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vcontroller
+R1
+R2
+!i10b 1
+!s100 dh7<JQ4UGen4O4>PCj`OF1
+In=0o43SNKV421<iIH>E^93
+R3
+!s105 controller_sv_unit
+S1
+R0
+R4
+8/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/controller.sv
+F/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/controller.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vdatapath
+R1
+R2
+!i10b 1
+!s100 1>eYf^QC>N7KPM1LnR]1M2
+IX245C>XB3LOg[0bIOoOoZ0
+R3
+!s105 datapath_sv_unit
+S1
+R0
+w1488518238
+8/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/datapath.sv
+F/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/datapath.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vdecoder
+R1
+R2
+!i10b 1
+!s100 e8>4:b482lc=]Om^:HXUT2
+IdP[;oE@o6B_9n2GSmSUA?3
+R3
+!s105 decoder_sv_unit
+S1
+R0
+w1488517587
+8/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/decoder.sv
+F/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/decoder.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vextend
+R1
+R2
+!i10b 1
+!s100 PE_;JmbiQV8m7L]TL>`iN2
+IW>RR]z>5FJnkzWN;@J3b10
+R3
+!s105 extend_sv_unit
+S1
+R0
+R10
+8/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/extend.sv
+F/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/extend.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vflopenr
+R1
+R2
+!i10b 1
+!s100 G002>NTQd0Qf[h>hn@Y0G0
+IEQVVZCU59HRXYNoPN_VUY1
+R3
+!s105 flopenr_sv_unit
+S1
+R0
+R10
+8/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/flopenr.sv
+F/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/flopenr.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vflopr
+R1
+R2
+!i10b 1
+!s100 Fc9=3o9Q9GdSA<PO?Ui2Y2
+IAL9A_jj2a8g6ofe4jk^2=0
+R3
+!s105 flopr_sv_unit
+S1
+R0
+R10
+8/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/flopr.sv
+F/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/flopr.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vimem
+R1
+R2
+!i10b 1
+!s100 OoZ>zI`[E0TjONTT2ZC@R3
+IJ>S>Q2keaC5SjLJKY>eL<3
+R3
+!s105 imem_sv_unit
+S1
+R0
+R10
+8/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/verif/imem.sv
+F/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/verif/imem.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R11
+R12
+!i113 0
+R13
+vmux2
+R1
+R2
+!i10b 1
+!s100 `ePC:YQM:GL4TQf9bRPU?0
+IbT2HU[U0oU9kHeKl?9jTc2
+R3
+!s105 mux2_sv_unit
+S1
+R0
+R10
+8/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/mux2.sv
+F/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/mux2.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vram
+R1
+R2
+!i10b 1
+!s100 NND;k0QHljQoMSWDWFi8:0
+IWZ?jkhFYj9_hGJFdH6^f70
+R3
+!s105 ram_sv_unit
+S1
+R0
+R10
+8/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/verif/ram.sv
+F/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/verif/ram.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R11
+R12
+!i113 0
+R13
+vregfile
+R1
+R2
+!i10b 1
+!s100 X^MifFeE:ObLaeWMeUF`Q1
+IcX0>QHQYgTEh3J5SUWZI80
+R3
+!s105 regfile_sv_unit
+S1
+R0
+R10
+8/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/regfile.sv
+F/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/regfile.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vshiftblock
+R1
+R2
+!i10b 1
+!s100 4FL:H<E=6=;=ZB=H4E[GW2
+Iz;O?ATe>Kg`eWjG=3CmA32
+R3
+!s105 shiftblock_sv_unit
+S1
+R0
+R10
+8/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/shiftblock.sv
+F/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/shiftblock.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vshifter
+R1
+R2
+!i10b 1
+!s100 iXCJRlVcDzQF=6M2U4bOW0
+IIT[X@k;04ZD4g_@]?k=US1
+R3
+!s105 shifter_sv_unit
+S1
+R0
+R10
+8/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/shifter.sv
+F/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/shifter.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vshiftlogic
+R1
+R2
+!i10b 1
+!s100 MzQU1SB<SgcF=?Cb5>N5I3
+I4BYk1J3D9SN7@XK2K:Bgj2
+R3
+!s105 shiftlogic_sv_unit
+S1
+R0
+R10
+8/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/shiftlogic.sv
+F/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/design/shiftlogic.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+vtb_top
+R1
+R2
+!i10b 1
+!s100 iKRL=kWkl2^8`A43k4z?n1
+I[ziP[6iE9TaU:<4P]zzGX1
+R3
+!s105 tb_top_sv_unit
+S1
+R0
+R10
+8/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/verif/tb_top.sv
+F/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/verif/tb_top.sv
+L0 2
+R5
+r1
+!s85 0
+31
+R6
+R11
+R12
+!i113 0
+R13
+Ttb_top_opt
+!s110 1488519000
+Vf03n[;CkN4HKJaL5Ck96E0
+04 6 4 work tb_top fast 0
+o-quiet +acc -work work
+ntb_top_opt
+OL;O;10.4c;61
+vtop
+R1
+R2
+!i10b 1
+!s100 djPPE^g_LD7RE3fhKM=6P0
+I6ah3N`BN@kC]ecA:m[?FW1
+R3
+!s105 top_sv_unit
+S1
+R0
+R10
+8/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/verif/top.sv
+F/users/ugrad2/2015/fall/mccutchs/eecs112L/assign_2/Lab-2/verif/top.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R11
+R12
+!i113 0
+R13

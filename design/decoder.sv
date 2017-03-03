@@ -14,7 +14,7 @@ module decoder(input logic [1:0] Op,
     );
 
     logic [10:0] controls;
-    logic Branch, ALUOp, BranchLink;
+    logic Branch, ALUOp;
     logic [3:0] byte_enable_bits;
     logic mem_instr;
 

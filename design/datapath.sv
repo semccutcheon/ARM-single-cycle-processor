@@ -23,6 +23,7 @@ module datapath(
     logic [3:0] RA1, RA2, RA3;
     logic [31:0] Rs, shifter_operand, WD3;
     logic shifter_carry;
+    logic [3:0]Rsa;
 
 
     // next PC logic
@@ -42,11 +43,11 @@ module datapath(
     mux2 #(32) LinkPCmux(Result, PCPlus4, BranchLink, WD3);
 
     //Added for mem instructions which preserve Rd2 but need to shift Rm
-    mux2 #(4) Rs_src(Instr[11:8],Instr[3:0],Rs_in_shifter,Rsa);
+    mux2 #(4) Rs_src(Instr[11:8],Instr[3:0],Rs_in_shifter,Rsa[3:0]);
 
     regfile rf(clk, RegWrite, RA1, RA2,
         RA3, WD3, PCPlus8,
-        SrcA, WriteData, Rsa, Rs);
+        SrcA, WriteData, Rsa[3:0], Rs);
 
     shiftblock shift(Instr[11:0], Rs, WriteData, carry_flag, Instr[25], shifter_carry, shifter_operand, Rs_in_shifter);
 
